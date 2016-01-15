@@ -10,26 +10,30 @@
   }
 }
 .sidebar-container {
-  color: #bfbfbf;
+  color: #D061CF;
   font-size: 14px;
 }
 .sidebar-container h5 {
-  color: #808080;
+  color: #944990;
   padding-bottom: 1em;
 }
+#friend-tag{
+    background-color: #FFFAD3;
+    padding: 5px;
+}
 .sidebar-container h5 a {
-  color: #808080 !important;
+  color: #944990 !important;
   text-decoration: none;
 }
 .sidebar-container a {
-  color: #bfbfbf !important;
+  color: #121217 !important;
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
   color: #0085a1 !important;
 }
 .sidebar-container .tags a {
-  border-color: #bfbfbf;
+  border-color: #50CC28;
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
@@ -279,13 +283,14 @@ pre code {
   color: white;
   height: 56px;
   line-height: 25px;
+  font-size: 26px;
 }
 .navbar-custom .navbar-brand:hover {
   color: rgba(255, 255, 255, 0.8);
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 22px;
   line-height: 20px;
   font-weight: 800;
   letter-spacing: 1px;
@@ -478,6 +483,9 @@ pre code {
     font-size: 20px;
   }
 }
+
+
+
 .post-preview > a {
   color: #404040;
 }
@@ -501,7 +509,7 @@ pre code {
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
-  color: #808080;
+  color: #271515;
   font-size: 16px;
   font-style: italic;
   margin-top: 0;
@@ -531,7 +539,7 @@ pre code {
 .post-content-preview {
   font-size: 13px;
   font-style: italic;
-  color: #a3a3a3;
+  color: #271515;
 }
 .post-content-preview:hover {
   color: #0085a1;
@@ -735,7 +743,7 @@ img::-moz-selection {
 .tags .tag:active {
   color: white;
   border-color: white;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #7CDEDA;
   text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
@@ -849,6 +857,9 @@ img::-moz-selection {
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
 }
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,

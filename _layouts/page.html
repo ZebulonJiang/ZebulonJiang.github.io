@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header" style="background-image: url('{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}?imageView2/1/w/1920/h/500')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
@@ -39,7 +39,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <!-- no hr -->
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <h5><a href="/tags/">常用标签</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -55,7 +55,7 @@ layout: default
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>友情链接</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
@@ -84,30 +84,12 @@ layout: default
                 col-xs-12
                 sidebar-container
             ">
-<!--
- <div class="shadow-corner-curl hidden-xs">
-      <div class="categories-list-header">
-        分类
-      </div>
-      
-      <a href="{{'/index.html' | prepend: site.baseurl}}" class="categories-list-item" cate="All">
-        All<span class="my-badge"> {{site.posts | size}}</span>
-      </a>
-      {% for category in site.categories order:ascending %}
-        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
-          {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-  -->
-   
 
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="{{/tags/ | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <h5><a href="{{/tags/ | prepend: site.baseurl }}">常用标签</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -122,7 +104,7 @@ layout: default
 
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
-                    <hr><h5><a href="{{/about/ | prepend: site.baseurl }}">ABOUT ME</a></h5>
+                    <hr><h5><a href="{{/about/ | prepend: site.baseurl }}">关于</a></h5>
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
                             <img src="{{site.sidebar-avatar}}" />
@@ -198,10 +180,10 @@ layout: default
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>友情链接</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                        <li><a id="friend-tag" href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}

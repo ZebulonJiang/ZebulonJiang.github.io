@@ -1,20 +1,21 @@
 # Site settings
 title: Zebulon
 SEOTitle: Zebulon Blog
-header-img: http://7xln77.com1.z0.glb.clouddn.com/coffeboy%2Fblog%2Fimg%2Fhome-bg2.jpg
+header-img: http://7xln77.com1.z0.glb.clouddn.com/coffeboy/blog/img/waterfall-1081997_1920.jpg
+default-img: http://7xln77.com1.z0.glb.clouddn.com/coffeboy%2Fblog%2Fimg%2Fhome-bg2.jpg
 email: Zebulon.Jiang@gmail.com
-description: ""
-keyword: ""
-url: "http://ZebulonJiang.github.io"              # your host, for absolute URL
+description: "Zebulon"
+keywords: "Zebulon"
+url: "http://coffeboy.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-##weibo_username:     jzb8736
+weibo_username:     jzb8736
 #zhihu_username:     huxpro
-#github_username:    huxpro
+github_username:    Zebulonjiang
 #twitter_username:  huxpro
 #facebook_username:  huxpro
 
@@ -22,7 +23,7 @@ RSS: false
 
 # Build settings
 highlighter: pygments
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title/
 #permalink: pretty
 gems: [jekyll-paginate]
 paginate: 10
@@ -62,15 +63,15 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 
 # Sidebar settings
-##sidebar: true                           # whether or not using Sidebar.
-##sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
-##sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "做一个自由的人、潇洒地周游世界"
+sidebar-avatar: http://7xq2ld.com1.z0.glb.clouddn.com/blog/img/avatar2.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 
