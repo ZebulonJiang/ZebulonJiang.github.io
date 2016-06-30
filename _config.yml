@@ -65,7 +65,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "做一个自由的人、潇洒地周游世界"
-sidebar-avatar: http://7xq2ld.com1.z0.glb.clouddn.com/blog/img/avatar2.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar:       # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
