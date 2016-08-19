@@ -14,6 +14,8 @@ keywords:
 description: Zebulon Blog正式上线啦。由jekyll生成静态页面，bootstrap设计响应式前端。
 header-img: http://7xq2ld.com1.z0.glb.clouddn.com/blog%2Fpost-img%2Fcow.jpg
 ---
+* content
+{:toc}
 
 >  理想是人生的太阳。 —— 德莱赛
 
@@ -22,7 +24,7 @@ header-img: http://7xq2ld.com1.z0.glb.clouddn.com/blog%2Fpost-img%2Fcow.jpg
  
 ## 选择平台  
 看过很多现成的Blog框架，数**Wordpress**最有名气了。之前装了一个Wordpress玩了一下，虽然有非常多插件和模板，但是想要达到随心所欲，还是需要学习web前后端的知识。对于我这种不懂网站的菜鸟来说，要玩转Wp还是需要花费一些时间。
-偶然间看到一位网友的Blog，页面非常简洁，Blog最下方写着**Power by [Jekyll](http://jekyllrb.com/)**，通过官网文档介绍，发现Jekyll就是为Blog而生。
+偶然间看到一位网友的Blog，页面非常简洁，Blog最下方写着Power by **[Jekyll](http://jekyllrb.com/)**，通过官网文档介绍，发现Jekyll就是为Blog而生。
 
 其优点非常明显: 
 
@@ -31,6 +33,7 @@ header-img: http://7xq2ld.com1.z0.glb.clouddn.com/blog%2Fpost-img%2Fcow.jpg
     * 如果你自己有主机，也可以部署到自己的主机上。
     * 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 。
 * Jekyll 能够轻松定制你想要的主题，简洁的模板引擎让你爱不释手。
+* 轻量化，Jekyll帮你生成了静态页面，不需要与数据库交互。所有非常的轻量化。
 
 ## Blog规划
 Blog主要用于记录成长过程，分享工作和生活心得。我的Blog计划将围绕以下几个方面展开：
@@ -45,5 +48,4 @@ Blog主要用于记录成长过程，分享工作和生活心得。我的Blog计
 下一篇我将写一些关于jekyll搭建的东西吧。把我最近搭建blog的过程跟大家分享一下。
 
 
-* content
-{:toc}
+

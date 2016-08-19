@@ -7,6 +7,17 @@
 - Git clone From [Hux](https://github.com/Huxpro/huxpro.github.io.git) 
 
 #### V1.0
+#### 2016-01-19更新
+- 更新了header图片中的标题，由55px修改成36px；防止标题过长图片变大。
+
+##### 2016-01-15更新
+
+- update _post目录
+- 优化了page的keywords和description，方便搜索引擎抓取。
+- 修改了鼠标在图片上显示放大镜的问题
+－ 修改了超链接 字符颜色不明显问题
+
+
 ##### 2016-01-14更新
 
 - 首页展示增加了缩略图
@@ -17,10 +28,10 @@
 - 修正了上一篇&下一篇文章的跳转逻辑
 - 修改了post页面布局。右侧增加了目录
 
-##### 2016-01-15更新
+#### 2016-06-08
 
-- update _post目录
-- 优化了page的keywords和description，方便搜索引擎抓取。
+- 更新了blog 2016-05-03-vps-ref
+
 
 
 

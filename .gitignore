@@ -1,5 +1,7 @@
+ref
 _site
 img
+download
 node_modules
 .DS_Store
 */.DS_Store

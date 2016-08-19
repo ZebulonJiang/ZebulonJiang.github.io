@@ -4,8 +4,8 @@ SEOTitle: Zebulon Blog
 header-img: http://7xln77.com1.z0.glb.clouddn.com/coffeboy/blog/img/waterfall-1081997_1920.jpg
 default-img: http://7xln77.com1.z0.glb.clouddn.com/coffeboy%2Fblog%2Fimg%2Fhome-bg2.jpg
 email: Zebulon.Jiang@gmail.com
-description: "Zebulon"
-keywords: "Zebulon"
+description: "一名硬件工程师的个人blog，在这里你不但可以看到好玩的智能硬件，还能看到web的的身影。"
+keywords: "Jekyll 智能硬件 电子diy laravel php"
 url: "http://coffeboy.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -14,10 +14,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # SNS settings
 RSS: false
 weibo_username:     jzb8736
-#zhihu_username:     huxpro
 github_username:    Zebulonjiang
-#twitter_username:  huxpro
-#facebook_username:  huxpro
+zhihu_username:     zebulon.jiang
+#twitter_username:  
+#facebook_username:  
 
 
 
@@ -55,17 +55,17 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-##ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+##ba_track_id: 
 # Google Analytics
-##ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-##ga_domain: huangxuan.me
+##ga_track_id: ''            # Format: UA-xxxxxx-xx
+##ga_domain:         
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "做一个自由的人、潇洒地周游世界"
-sidebar-avatar:       # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "做一个自由的人、潇洒地周游世界<br>不会PHP的前端程序猿不是好硬件工程师"
+sidebar-avatar: http://7xq2ld.com1.z0.glb.clouddn.com/blog/img/avatar2.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -73,13 +73,27 @@ sidebar-avatar:       # use absolute URL, seeing it's used in both `/` and `/abo
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
-
+#生产摘要文字数
+excerpt_separator: 100
 
 
 # Friends
 friends: [
+	{
+        title: "中安亿嘉科技",
+        href: "http://www.csoneplus.com/" 
+    },
     {
         title: "MicroRTL",
-        href: "http://micrortl.com/"
+        href: "http://micrortl.com/" 
+    },
+    {
+        title: "For Laravel Artist",
+        href: "https://laravist.com"
+    },
+	{
+        title: "QUERICY EDEN*",
+        href: "https://quericy.me/"
     }
+	
 ]
