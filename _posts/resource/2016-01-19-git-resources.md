@@ -52,6 +52,7 @@ header-img: http://7xq2ld.com1.z0.glb.clouddn.com/blog%2Fpost-img%2Fgirls.jpg
 7. 部署时经常会遇到，远程版本与本地冲突，需要用远程版本覆盖本地版本。则执行
 ```git reset --hard```
 ```git pull```
+8. 放弃本地修改（未提交）```git checkout -f```
 
 ## 参考资源
 

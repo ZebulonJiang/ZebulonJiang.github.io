@@ -2,7 +2,7 @@
 layout: post
 title: U3-device-re-enumerates
 subtitle:   ""
-date:       2016-06-01 14:16:05
+date:       2016-06-01
 author:     "Zebulon"
 category:  项目
 tags:

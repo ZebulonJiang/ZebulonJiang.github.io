@@ -2,7 +2,7 @@
 layout: post
 title: Hello World-2016
 subtitle:   ""
-date:       2016-01-10 19:06:05
+date:       2016-01-10
 author:     "Zebulon"
 category:  生活
 tags:

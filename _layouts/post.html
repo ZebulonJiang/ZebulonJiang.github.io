@@ -51,6 +51,18 @@ layout: default
         </div>
       </div>
       <hr>
+<div class="col-lg-9 col-md-9 col-sm-9 ">
+<div class="article-license mb10 mt20 alert alert-info">
+    <div class="license-item license-sa">
+        本文由
+        <a href="http://www.coffeboy.com" class="alert-link">Zebulon</a>
+        创作，采用
+        <a href="http://creativecommons.org/licenses/by-nc/2.5/cn/" target="_blank" rel="noreferrer noopener" class="alert-link">
+            署名-非商业性使用 2.5 中国大陆</a> 进行许可。<br>转载、引用前需联系作者，并署名作者且注明文章出处。
+    </div>
+</div>
+</div>
+
       <!-- Post Container -->
                 <div class="col-lg-9 col-md-9 col-sm-9 sidebar-container">
 
@@ -125,11 +137,11 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">常用标签</a></h5>
+                    <h5><a href="/d_tags/">常用标签</a></h5>
                     <div class="tags">
                 {% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
-                        <a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                        <a href="/d_tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                                     {{ tag[0] }}
                                 </a>
                             {% endif %}

@@ -449,3 +449,19 @@ blockquote:last-child {
 	}
 }
 
+.article-license {
+    line-height: 1.8;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.alert-info {
+    background-color: #d9edf7;
+    background: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+    margin-top: 15px;
+}
+
+
+

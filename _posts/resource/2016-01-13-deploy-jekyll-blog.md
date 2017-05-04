@@ -2,7 +2,7 @@
 layout: post
 title: 用Jekyll和GitHub搭建自己的Blog[1]
 subtitle:   初识Jekyll的运行环境
-date:       2016-01-13 23:19:30
+date:       2016-01-13
 author:     "Zebulon"
 category:  技术
 tags:

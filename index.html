@@ -14,7 +14,7 @@ description: "业精于勤荒于嬉，行成于思毁于随"
                     {{ post.subtitle }}
                 </h3>
                 {% endif %}
-                <img src="{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.default-img }}{% endif %}?imageView2/1/w/800/h/200">
+                <img src="{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.default-img }}{% endif %}?imageView2/1/w/800/h/400">
                 <div class="post-content-preview">
                     {{ post.content | strip_html | truncate:200 }}
                 </div>

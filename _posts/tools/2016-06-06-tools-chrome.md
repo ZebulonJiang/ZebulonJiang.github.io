@@ -2,7 +2,7 @@
 layout: post
 title: 没有最快，只有更快---Chrome
 subtitle: ""
-date:       2016-06-06 19:06:05
+date:       2016-06-06
 author:     "Zebulon"
 category:  小工具
 tags:
