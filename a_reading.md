@@ -13,7 +13,7 @@ header-img: http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/book-20170219.jp
 
 ### 悦读ing
 
-- 《[我的新生 —— 七年就是一辈子](https://www.gitbook.com/book/xiaolai/reborn/details)》 李笑来 abv
+- 《[我的新生 —— 七年就是一辈子](https://www.gitbook.com/book/xiaolai/reborn/details)》 李笑来 lixiaolai
 - 《[曾国藩家书](https://www.amazon.cn/%E6%9B%BE%E5%9B%BD%E8%97%A9%E5%AE%B6%E4%B9%A6-%E6%9B%BE%E5%9B%BD%E8%97%A9/dp/B01BKB2IPM/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)》 曾国藩 
 
 ### 计划悦读
