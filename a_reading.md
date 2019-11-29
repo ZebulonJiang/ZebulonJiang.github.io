@@ -6,7 +6,7 @@ subtitle:   悦读于心 思辩于行
 date:       2017-02-19
 author:     "Zebulon"
 description:  悦读于心 思辩于行
-header-img: http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/book-20170219.jpg
+header-img: ../res/blog/post-img/book-20170219.jpg
 ---
 * content  
 {:toc} 

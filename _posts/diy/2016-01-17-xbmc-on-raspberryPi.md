@@ -16,7 +16,7 @@ keywords:
     - BT下载，
     - NAS
 description: 在树莓派上实现XBMC家庭影院。非常的有意思。
-header-img: http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/xbmc-home.png
+header-img: ../res/blog/post-img/xbmc-home.png
 ---
 * content  
 {:toc} 
@@ -33,22 +33,22 @@ header-img: http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/xbmc-home.png
 以下是blog原文：
 
 这两周一直在测试PI的XBMC媒体中心，结果还是令我满意的，至少在WIFI的条件下720P的电影一点都不卡，1080P的电影很卡（大小38G），应该跟局域网限制有关。话不多说，先上图：
-![xbmc](http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/xbmc.png)
+![xbmc](../res/blog/post-img/xbmc.png)
 <center >运行XBMC的效果</center >
 
-![video plug](http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/video-plug.png)
+![video plug](../res/blog/post-img/video-plug.png)
 <center >视频插件</center >
 
-![raspberry pi](http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/rasberry-pi.png)
+![raspberry pi](../res/blog/post-img/rasberry-pi.png)
 <center >树莓派&路由器</center >
 
-![openwrt](http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/openwrt-router.png)
+![openwrt](../res/blog/post-img/openwrt-router.png)
 <center >FWR171刷完Openwrt挂载一个32G的优盘</center >
 
-![AirPlay](http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/airplay.png)
+![AirPlay](../res/blog/post-img/airplay.png)
 <center >Airplay效果</center >
 
-![Aria2 BT](http://7xq2ld.com1.z0.glb.clouddn.com/blog/post-img/bt.png)
+![Aria2 BT](../res/blog/post-img/bt.png)
 <center >OpenWrt路由器下载监测界面（Aria2支持手机客户端）</center >
 
 ## 注意事项：
