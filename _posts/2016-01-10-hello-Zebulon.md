@@ -12,7 +12,7 @@ keywords:
     - 静态博客,
     - blog,
 description: Zebulon Blog正式上线啦。由jekyll生成静态页面，bootstrap设计响应式前端。
-header-img: ../res/blog%2Fpost-img%2Fcow.jpg
+header-img: /res/blog%2Fpost-img%2Fcow.jpg
 ---
 * content
 {:toc}

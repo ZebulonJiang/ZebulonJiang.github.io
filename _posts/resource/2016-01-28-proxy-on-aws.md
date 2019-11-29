@@ -12,7 +12,7 @@ keywords:
      - shadowsocks
      - 代理上网
 description: 如果你是一名硬件工程师，免不了会上网查一些芯片手册，当你打开百度搜索，前几页几乎全部被广告和文库占用，而真正的官方手册，却犹抱琵琶半遮面。	
-header-img:  ../res/blog/post-img/internet-1181586_1280.jpg
+header-img:  /res/blog/post-img/internet-1181586_1280.jpg
 ---
 
 
@@ -22,9 +22,9 @@ header-img:  ../res/blog/post-img/internet-1181586_1280.jpg
 # 前言
 
 为什么要出轨（番羽--土啬）去查资料？当你想安装chrome，打开度娘搜索会是这样的
-![百度全家桶](../res/blog%2Fpost-img%2Fbaidu.jpg)
+![百度全家桶](/res/blog%2Fpost-img%2Fbaidu.jpg)
 当你想安装一个UE，打开搜索百度却是这样的。
-![百度VS谷歌](../res/blog%2Fpost-img%2Fbaidu-google.png)
+![百度VS谷歌](/res/blog%2Fpost-img%2Fbaidu-google.png)
 如果你是一名硬件工程师，免不了会上网查一些芯片手册，当你打开百度搜索，前几页几乎全部被广告和文库占用，而真正的官方手册，却犹抱琵琶半遮面。
 关于百度的行为，最近在知乎上也讨论的热火朝天。[知乎链接]( http://www.zhihu.com/question/22732593/answer/83139119)。
 我相信作为一名工程师，在这种背景下，出轨成为了必备的技能。
@@ -76,7 +76,7 @@ header-img:  ../res/blog/post-img/internet-1181586_1280.jpg
 ##### 配置
 
 安装完shadowsocks后可以用```ssserver -h ```查看帮助信息。
-![ssserver -h](../res/blog/post-img/ssserver-h.jpg)
+![ssserver -h](/res/blog/post-img/ssserver-h.jpg)
 
 
 创建shadowsocks目录，并创建其配置文件，如下： 
@@ -110,14 +110,14 @@ header-img:  ../res/blog/post-img/internet-1181586_1280.jpg
 
 通过```netstat -tunlp ```命令可以查看网络连接情况，我们可以看到服务器正在监听1194端口的数据。
 
-![shadowsocks-start](../res/blog/post-img/shadowsocks-start.jpg)
+![shadowsocks-start](/res/blog/post-img/shadowsocks-start.jpg)
 
 
 停止shadowsocks服务:
 
 ```sudo ssserver -d stop```
 
-![shadowsocks-stop](../res/blog/post-img/shadowsocks-stop.jpg)
+![shadowsocks-stop](/res/blog/post-img/shadowsocks-stop.jpg)
 
 #### 客户端连接
 客户端下载:
@@ -126,7 +126,7 @@ header-img:  ../res/blog/post-img/internet-1181586_1280.jpg
 其他客户端在[官方github](https://github.com/shadowsocks)上都能找到相应的分支。
 下面我以mac为例说一下客户端配置（windows的配置也一样）。
 
-![shadowsocks－config](../res/blog/post-img/shadowsocks-config.jpg)
+![shadowsocks－config](/res/blog/post-img/shadowsocks-config.jpg)
 
 ***ip地址：***填写服务器的ip地址
 
@@ -136,10 +136,10 @@ header-img:  ../res/blog/post-img/internet-1181586_1280.jpg
 
 配置完后点击确定，然后在状态栏打开软件，如下图所示：
 
-![shadowsocks-open](../res/blog/post-img/shadowsocks-open.jpg)
+![shadowsocks-open](/res/blog/post-img/shadowsocks-open.jpg)
 
 客户端运行起来后，接下来我们就测试一下代理是否成功。在浏览器运行http://www.cip.cc/,如果显示你服务器的ip和地址，那么恭喜你！如果没有成功，可以在下面给我留言。
-![cip](../res/blog/post-img/cip.jpg)
+![cip](/res/blog/post-img/cip.jpg)
 
 
 

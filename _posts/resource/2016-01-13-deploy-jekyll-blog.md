@@ -11,7 +11,7 @@ keywords:
     - Jekyll,
     - Jekyll+GitHub 
 description: 利用GitHub＋Jekyll搭建一个免费的Blog。
-header-img: ../res/blog%2Fpost-img%2Fbookshelf.jpg
+header-img: /res/blog%2Fpost-img%2Fbookshelf.jpg
 ---
 * content  
 {:toc} 
@@ -49,7 +49,7 @@ Jekyll主要用于生成静态页面，它可以根据配置项将你的**Markdo
 ```jekyll serve``` (如遇权限不足，请在前面加上sudo)
 如果没有报错,你就可以通过localhost:4000来预览主题啦。
 
-![jekyll正常运行](../res/blog/post-img/jekyll serve.png)
+![jekyll正常运行](/res/blog/post-img/jekyll serve.png)
 
 ### 修改配置
 修改配置[官网](http://jekyllrb.com/docs/structure/)也讲的非常清楚了，大家可以看文档自己修改一下。今天太晚了，下次我会专门写一篇文章介绍Jekyll配置吧。

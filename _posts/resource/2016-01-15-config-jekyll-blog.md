@@ -11,7 +11,7 @@ keywords:
     - Jekyll,
     - Jekyll+GitHub 
 description: 利用GitHub＋Jekyll搭建一个免费的Blog。
-header-img: ../res/blog%2Fpost-img%2Fdamselfly.jpg
+header-img: /res/blog%2Fpost-img%2Fdamselfly.jpg
 ---
 * content  
 {:toc} 
@@ -95,8 +95,8 @@ header-img: ../res/blog%2Fpost-img%2Fdamselfly.jpg
 # Site settings
 title: Zebulon
 SEOTitle: Zebulon Blog
-header-img: ../res/blog/img/waterfall-1081997_1920.jpg #头部图片
-default-img: ../res%2Fblog%2Fimg%2Fhome-bg2.jpg  #默认图片
+header-img: /res/blog/img/waterfall-1081997_1920.jpg #头部图片
+default-img: /res%2Fblog%2Fimg%2Fhome-bg2.jpg  #默认图片
 email: Zebulon.Jiang@gmail.com
 description: "一名硬件工程师的个人blog，在这里你不但可以看到好玩的智能硬件，还能看到web的的身影。"
 keywords: "Jekyll 智能硬件 电子diy laravel php"
@@ -146,7 +146,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "做一个自由的人、潇洒地周游世界"
-sidebar-avatar: ../res/blog/img/avatar2.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /res/blog/img/avatar2.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags

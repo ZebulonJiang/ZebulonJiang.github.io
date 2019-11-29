@@ -1,8 +1,8 @@
 # Site settings
 title: Coffeboy
 SEOTitle: Zebulon Blog
-header-img: ../res/blog/img/waterfall-1081997_1920.jpg
-default-img: ../res%2Fblog%2Fimg%2Fhome-bg2.jpg
+header-img: /res/blog/img/waterfall-1081997_1920.jpg
+default-img: /res%2Fblog%2Fimg%2Fhome-bg2.jpg
 email: Zebulon.Jiang@gmail.com
 description: "一名硬件工程师的个人blog，在这里你不但可以看到好玩的智能硬件，还能看到web的的身影。"
 keywords: "Jekyll 智能硬件 电子diy laravel php"
@@ -65,7 +65,7 @@ duoshuo_share: false                     # set to false if you want to use Comme
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "做一个自由的人、潇洒地周游世界<br>不会PHP的前端程序猿不是好硬件工程师"
-sidebar-avatar: ../res/blog/img/avatar2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /res/blog/img/avatar2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 

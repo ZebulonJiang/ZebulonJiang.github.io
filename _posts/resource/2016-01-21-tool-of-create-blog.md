@@ -12,7 +12,7 @@ keywords:
     - 图床,
     - mou
 description: 讲述如何快捷方便的创建自己的博客。推荐一些非常好用的编辑器。让你事半功倍。
-header-img: ../res/blog/post-img/template.png
+header-img: /res/blog/post-img/template.png
 ---
 * content  
 {:toc} 
@@ -48,18 +48,18 @@ Markdown的编辑器非常多
 - CSS/HTML/PDF格式导出文件
 - 支持在编辑器内内联HTML代码
 
-![mou](../res/blog/post-img/mou.png)
+![mou](/res/blog/post-img/mou.png)
 
 ### Win
 
 如果在win下，打开一现有的markdown文件修改，我一般会使用[Markdownpad](http://markdownpad.com/)。一边编辑一边预览的效果还是很棒的。
-![Markdownpad](../res/blog/post-img/markdownpad2.png)
+![Markdownpad](/res/blog/post-img/markdownpad2.png)
 
 ### 其它
 
 一般情况我会用[为知笔记](http://www.wiz.cn/)做日常工作笔记，通常一些博客素材也会用[为知笔记](http://www.wiz.cn/)来写。整体来说[为知笔记](http://www.wiz.cn/)笔记在文字编辑体验还不错。多终端同步也比较方便。
 
-![为知笔记markdown](../res/blog/post-img/wiz.gif)
+![为知笔记markdown](/res/blog/post-img/wiz.gif)
 
 除了使用[为知笔记](http://www.wiz.cn/)偶尔也会用[sublime](http://www.sublimetext.com/)写markdown。譬如需要修改网页的一些东西，打开了整个工程。顺便就用sublime把blog也可以写了。
 
@@ -75,11 +75,11 @@ Markdown的编辑器非常多
 
 对于个人博客和小型网站，这个免费的额度已经足够使用了，如果真的超了，价格也不贵。完全可以接受。
 
-![七牛云存储](../res/blog/post-img/qiniu.png)
+![七牛云存储](/res/blog/post-img/qiniu.png)
 
 如果你也用[七牛云存储](http://www.qiniu.com/)做图床，那么我强烈推荐[七牛chrome插件](https://chrome.google.com/webstore/detail/emmfkgdgapbjphdolealbojmcmnphdcc) ，谷歌商店上安装，如果下载不了，请自行出轨安装。
 
-![七牛chrome插件](../res/blog/post-img/qiniu-chrome2.gif)
+![七牛chrome插件](/res/blog/post-img/qiniu-chrome2.gif)
 
 有了chrome插件上传图片到七牛就方便多了。上传后将url拷贝到markdown中引用即可。
 
@@ -131,7 +131,7 @@ header-img:
 ```
 为了方便，我会在系统环境变量中添加一个自定义命令。`alias newblog='YOUR_PATH/newblog.sh'`。这样就可以直接通过命令`newblog BLOGNAME`在_posts下生成一个YY-MM-DD-BLOGNAME.md的模板文件。
 还是挺方便的
-![自动生成模版](../res/blog/post-img/template.gif)
+![自动生成模版](/res/blog/post-img/template.gif)
 
 ## 下篇预告
 

@@ -10,7 +10,7 @@ tags:
 keywords: 
     - 电路设计经验 
 description: 在电路设计中，可能会遇到很多的为什么，如，这里为什么会用一个这么大的电阻？电容为什么没有5uF？今天给大家分享一些电路设计的经验。
-header-img:  ../res/blog/post-img/pcb.jpg
+header-img:  /res/blog/post-img/pcb.jpg
 ---
 
 * content  

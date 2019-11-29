@@ -11,7 +11,7 @@ keywords:
     - git,
     - git用法
 description: 这里汇集了git的常用资源。
-header-img: ../res/blog%2Fpost-img%2Fgirls.jpg
+header-img: /res/blog%2Fpost-img%2Fgirls.jpg
 ---
 * content  
 {:toc} 
